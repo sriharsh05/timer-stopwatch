@@ -1,0 +1,89 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #ddd;
+    text-align: center;
+    background: #1f2833;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .container {
+    margin: 20vh auto 0;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .timer span {
+    display: block;
+    font-size: 60px;
+    padding: 20px 0;
+  }
+  button {
+    width: 115px;
+    padding: 10px 0;
+    margin: 0 5px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: #ddd;
+    box-shadow: 0 20px 30px #aaa;
+    transition: 0.2s;
+  }
+  button:hover {
+    transition: 0.6s;
+    background-color: #66fcf1;
+    box-shadow: 0 0 30px #999;
+  }
+  .number input {
+    width: 150px;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 50px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bbb inset;
+  }
+
+  #timer {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b0c10;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #45a29e;
+  }
